@@ -7,7 +7,7 @@ app.listen(port , ()=>{
 });
 
 app.get("/", (req, res)=>{
-    res.send("Hello");
+      res.sendFile("/Users/jenilpadshala/Web Development Projects/HTTP-Request/public/index.html");
     
 
 });
